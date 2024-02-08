@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica&family=Grape+Nuts&family=Roboto:wght@100;300;400;700;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aqua;
+    background: url('gradient.png');}
+.container{
+    position: relative;
+    width: 400px;
+    height: 555px;
+    background-color: orange;
+    border-radius: 16px;
+    padding: 20px;
+    color: aliceblue;
+    background: url('ankit.jpg');}
+input{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;}
+ .searchField{
+    position: absolute;
+    width:75%;
+    height: 55px;
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 48px 0 42px;}
+.search input::placeholder{
+    color: beige;
+    text-transform: capitalize;}
+ button{
+    position: absolute;
+    right:1%;
+    height:55px;
+    width: 60px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid black;}
+.weather1{
+    text-align: center;
+    margin: 80px;
+    margin-left: 22px;
+    font-size:44px;
+    align-items: center;}
+
+.weather2{
+    font-size:19px;
+    margin-top:1px;
+}
+.weather3{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.ankit{
+user-select: none;
+font-size:15PX;
+color:rgb(231, 231, 231);
+font-weight: bold;
+position: relative;
+top:70px;
+color: yellowgreen;
+}
+.omm{
+font-size:50px;
+position: relative;
+top: 25px;
+left:210px;
+color: yellowgreen;
+}
